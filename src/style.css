@@ -1,0 +1,140 @@
+body {
+  position: absolute;
+  background: #282C33;
+}
+
+header {
+  position: absolute;
+  width: 537px;
+  height: 74px;
+  left: 306px;
+  top: 63px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+  color: #FFFFFF;
+}
+
+.cam {
+  color: #95EBA8;
+}
+
+label {
+  position: absolute;
+  width: 111px;
+  height: 15px;
+  left: 307px;
+  top: 165px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+input {
+  position: absolute;
+  width: 171px;
+  height: 48px;
+  left: 306px;
+  top: 185px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  position: absolute;
+  width: 171px;
+  height: 48px;
+  left: 491px;
+  top: 185px;
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #373737;
+}
+
+section {
+  position: absolute;
+  width: 900px;
+  height: 583px;
+  left: 306px;
+  top: 290px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+#matching-currency {
+  width: 839px;
+  left: 335px;
+  top: 372px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+h1 {
+  width: 384px;
+  height: 30px;
+  left: 596px;
+  top: 314px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.currency-data {
+  margin: 3px;
+  width: 150px;
+  height: 44px;
+  left: 336px;
+  top: 372px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+
+.currency-name {
+  width: 30px;
+  height: 20px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+}
+
+.currency-val {
+  width: 40px;
+  height: 16px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #FFE713;
+}
